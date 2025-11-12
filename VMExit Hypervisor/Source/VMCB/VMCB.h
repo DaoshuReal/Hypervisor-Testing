@@ -154,4 +154,5 @@ class VMCBUtilities
 public:
     static VMCB* AllocateVmcb();
     static void FreeVmcb(VMCB* vmcb);
+    static void SetupVMCB(VMCB* vmcb);
 };

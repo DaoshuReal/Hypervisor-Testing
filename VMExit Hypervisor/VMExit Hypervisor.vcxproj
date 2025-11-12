@@ -73,6 +73,9 @@
     <ClInclude Include="Source\SVM\SVM.h" />
     <ClInclude Include="Source\VMCB\VMCB.h" />
   </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Source\helpers.asm" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
